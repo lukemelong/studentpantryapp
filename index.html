@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Student Pantry Checkout</title>
+  </head>
+  <body>
+    <form action="index.html" method="POST">
+      <fieldset id="studentInformation">
+        <legend>Student Information</legend>
+        <h2>Staff/Volunteer:</h2>
+        <input type="text" name="staff">
+        <h2>Student Last Name Initial:</h2>
+        <input type="text" name="studentInitial">
+        <h2>Student ID:</h2>
+        W<input type="text" name="studentID">
+      </fieldset>
+      <fieldset id="items">
+        <legend>Items</legend>
+        <table id="itemsTable">
+          <tr>
+            <td>
+              <h2>Food Items (Limit 10)</h2>
+            </td>
+            <td>
+            </td>
+            <td>
+              <h2>Hygiene Items (Limit 5)</h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>
+                1.<input type="text" class="item" name="item1">
+                <input type="number" class="num" name="itemNum1" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                6.<input type="text" class="item" name="item6">
+                <input type="number" class="num" name="itemNum6" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>1.<input type="text" class="item" name="hygiene1">
+                <input type="number" class="num" name="hydeieneNum1" min="1" max="6">
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>
+                2.<input type="text" class="item" name="item2">
+                <input type="number" class="num" name="itemNum2" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                7.<input type="text" class="item" name="item7">
+                <input type="number" class="num" name="itemNum7" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                2.<input type="text" class="item" name="hygiene2">
+                <input type="number" class="num" name="hydeieneNum2" min="1" max="6">
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>
+                3.<input type="text" class="item" name="item3">
+                <input type="number" class="num" name="itemNum3" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                8.<input type="text" class="item" name="item8">
+                <input type="number" class="num" name="itemNum8" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                3.<input type="text" class="item" name="hygiene3">
+                <input type="number" class="num" name="hydeieneNum3" min="1" max="6">
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>
+                4.<input type="text" class="item" name="item4">
+                <input type="number" class="num" name="itemNum4" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                9.<input type="text" class="item" name="item9">
+                <input type="number" class="num" name="itemNum9" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                4.<input type="text" class="item" name="hygiene4">
+                <input type="number" class="num" name="hydeieneNum4" min="1" max="6">
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>
+                5.<input type="text" class="item" name="item5">
+                <input type="number" class="num" name="itemNum5" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                10.<input type="text" class="item" name="item10">
+                <input type="number" class="num" name="itemNum10" min="1" max="6">
+              </span>
+            </td>
+            <td>
+              <span>
+                5.<input type="text" class="item" name="hygiene5">
+                <input type="number" class="num" name="hydeieneNum5" min="1" max="6">
+              </span>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <h2>Do you have any suggestions or items that you would like to see carried in the pantry?</h2>
+      <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+      <div id="submitBox">
+        <input id="submitButton" type="submit" name="submit" value="Submit">
+      </div>
+    </form>
+  </body>
+</html>

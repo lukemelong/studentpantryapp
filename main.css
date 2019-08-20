@@ -1,0 +1,87 @@
+/* Body */
+body {
+  padding: 30px;
+  font-family: Helvetica;
+}
+
+/* Form */
+form {
+  width: 70%;
+  margin: auto;
+}
+
+/* FieldSets */
+fieldset {
+  margin: 20px 0 20px 0;
+  border: none;
+}
+
+#studentInformation {
+  overflow-wrap: normal;
+}
+
+#studentInformation legend {
+  text-align: left;
+}
+
+#studentInformation h2 {
+  padding: 5px 0 5px 0;
+  font-size: 1.2em;
+}
+
+#studentInformation input {
+  display: inline;
+}
+
+#studentInformation span {
+  padding: 10px;
+}
+
+#items h2 {
+  font-weight: bold;
+}
+
+#itemsTable {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#itemsTable tr {
+  height: 40px;
+}
+
+#itemsTable td {
+  width: 33%;
+  border: solid 1px black;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.item {
+  width: 70%;
+  margin-left: 3px;
+}
+
+.num {
+  margin-left: 5px;
+  width: 15%;
+}
+
+/* Suggestions textarea */
+#suggestions {
+  width: 100%;
+}
+
+/* Submit Button */
+#submitBox {
+  text-align: center;
+  padding: 10px;
+}
+
+#submitButton {
+  width: 100px;
+  height: 30px;
+  font-size: 1em;
+}
+/*# sourceMappingURL=main.css.map */

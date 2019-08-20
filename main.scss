@@ -1,0 +1,81 @@
+/* Body */
+body{
+    padding: 30px;
+    font-family: Helvetica;
+}
+
+/* Form */
+form{
+    width: 70%;
+    margin: auto;
+}
+
+/* FieldSets */
+fieldset{
+    margin: 20px 0 20px 0;
+    border: none;
+}
+
+#studentInformation{
+    overflow-wrap: normal;
+    legend{
+        text-align: left;
+    }
+    h2{
+        padding: 5px 0 5px 0;
+        font-size: 1.2em;
+    }
+    input{
+        display: inline;
+    }
+    span{
+        padding: 10px;
+    }
+}
+
+#items{
+    h2{
+        font-weight: bold;
+    }
+}
+
+#itemsTable{
+    width: 100%;
+    table-layout: fixed;
+    tr{
+        height: 40px;
+    }
+    td{
+        width: 33%;
+        border: solid 1px black;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
+
+.item{
+    width: 70%;
+    margin-left: 3px;
+}
+
+.num {
+    margin-left: 5px;
+    width: 15%;
+}
+
+/* Suggestions textarea */
+#suggestions{
+    width: 100%;
+}
+
+/* Submit Button */
+#submitBox{
+    text-align: center;
+    padding: 10px;
+}
+
+#submitButton{
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
+}
