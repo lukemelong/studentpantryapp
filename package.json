@@ -1,20 +1,28 @@
 {
-  "name": "studentpantryapp",
+  "name": "student-pantry-app",
   "version": "1.0.0",
-  "description": "Checkout form for Student Pantry NSCC IT Campus",
+  "description": "��S\u0000t\u0000u\u0000d\u0000e\u0000n\u0000t\u0000 \u0000P\u0000a\u0000n\u0000t\u0000r\u0000y\u0000 \u0000A\u0000p\u0000p\u0000\r\u0000 \u0000",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "postinstall": "install-app-deps"
+    "postinstall": "install-app-deps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukemelong/studentpantryapp.git"
   },
   "author": "Luke Melong",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukemelong/studentpantryapp/issues"
+  },
+  "homepage": "https://github.com/lukemelong/studentpantryapp#readme",
   "devDependencies": {
-    "electron": "^5.0.1",
+    "electron": "^6.0.3",
     "electron-builder": "^21.2.0"
   },
   "dependencies": {
-    "knex": "^0.19.1",
-    "sqlite3": "^4.0.9"
+    "sqlite3": "^4.1.0"
   }
 }
