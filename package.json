@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/lukemelong/studentpantryapp#readme",
   "devDependencies": {
-    "electron": "^6.0.3",
+    "electron": "^13.6.6",
     "electron-builder": "^21.2.0"
   },
   "dependencies": {
